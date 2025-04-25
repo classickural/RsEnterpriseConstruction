@@ -1,5 +1,6 @@
 import { Award, CalendarCheck, Users, HandshakeIcon } from "lucide-react";
 import SectionHeading from "@/components/ui/section-heading";
+import { motion } from "framer-motion";
 
 export function About() {
   const features = [
