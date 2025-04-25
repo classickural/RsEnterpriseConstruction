@@ -1,0 +1,101 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Open+Sans:wght@400;500;600&display=swap');
+
+:root {
+  --background: 0 0% 100%;
+  --foreground: 20 14.3% 4.1%;
+  --muted: 60 4.8% 95.9%;
+  --muted-foreground: 25 5.3% 44.7%;
+  --popover: 0 0% 100%;
+  --popover-foreground: 20 14.3% 4.1%;
+  --card: 0 0% 100%;
+  --card-foreground: 20 14.3% 4.1%;
+  --border: 20 5.9% 90%;
+  --input: 20 5.9% 90%;
+  --primary: 0 0% 29%;
+  --primary-foreground: 60 9.1% 97.8%;
+  --secondary: 0 53% 53%;
+  --secondary-foreground: 60 9.1% 97.8%;
+  --accent: 38 85% 56%;
+  --accent-foreground: 24 9.8% 10%;
+  --destructive: 0 84.2% 60.2%;
+  --destructive-foreground: 60 9.1% 97.8%;
+  --ring: 20 14.3% 4.1%;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: 240 10% 3.9%;
+  --foreground: 0 0% 98%;
+  --muted: 240 3.7% 15.9%;
+  --muted-foreground: 240 5% 64.9%;
+  --popover: 240 10% 3.9%;
+  --popover-foreground: 0 0% 98%;
+  --card: 240 10% 3.9%;
+  --card-foreground: 0 0% 98%;
+  --border: 240 3.7% 15.9%;
+  --input: 240 3.7% 15.9%;
+  --primary: 240 5.9% 10%;
+  --primary-foreground: 0 0% 98%;
+  --secondary: 0 53% 53%;
+  --secondary-foreground: 0 0% 98%;
+  --accent: 38 85% 56%;
+  --accent-foreground: 0 0% 98%;
+  --destructive: 0 62.8% 30.6%;
+  --destructive-foreground: 0 0% 98%;
+  --ring: 240 4.9% 83.9%;
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply font-body antialiased bg-background text-foreground;
+  }
+
+  html {
+    @apply scroll-smooth;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-heading;
+  }
+}
+
+@layer utilities {
+  .section-padding {
+    @apply py-20 px-4;
+  }
+
+  @screen md {
+    .section-padding {
+      @apply py-24;
+    }
+  }
+
+  .gallery-img {
+    @apply h-[250px] object-cover transition-all duration-300;
+  }
+
+  .gallery-img:hover {
+    @apply transform scale-[1.03] shadow-lg;
+  }
+
+  .nav-link {
+    @apply relative;
+  }
+
+  .nav-link:after {
+    content: '';
+    @apply absolute w-0 h-0.5 block mt-0.5 right-0 bg-accent transition-all duration-300;
+  }
+
+  .nav-link:hover:after {
+    @apply w-full left-0;
+  }
+}
