@@ -21,7 +21,7 @@ export const services = [
   },
 ];
 
-export const phoneNumber = "+919876543210";
+export const phoneNumber = "+919750996641";
 export const email = "info@rsenterprisestn.com";
 export const address = {
   line1: "RS Garden, Dabeer Street, Dharmapuram Road,",

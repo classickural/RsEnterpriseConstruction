@@ -172,7 +172,7 @@ export function Hero() {
             <Button
               variant="default"
               className="px-8 py-6 bg-accent hover:bg-yellow-500 text-primary font-medium rounded-md shadow-lg flex items-center justify-center h-auto w-full"
-              onClick={() => window.location.href = "tel:+919876543210"}
+              onClick={() => window.location.href = "tel:+919750996641"}
             >
               <motion.span 
                 className="mr-2"
