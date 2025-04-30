@@ -107,10 +107,10 @@ export function Contact() {
                 </h4>
                 <p className="text-gray-700">
                   <a
-                    href="tel:+919876543210"
+                    href="tel:+919750996641"
                     className="hover:text-secondary"
                   >
-                    +91 98765 43210
+                    +91 9750996641
                   </a>
                 </p>
               </div>
@@ -144,7 +144,7 @@ export function Contact() {
 
             <div className="flex space-x-4">
               <a
-                href="https://wa.me/919876543210"
+                href="https://wa.me/919750996641"
                 className="flex-1 py-3 bg-green-600 text-white text-center rounded-md hover:bg-green-700 transition duration-300 flex items-center justify-center"
                 target="_blank"
                 rel="noopener noreferrer"
@@ -160,7 +160,7 @@ export function Contact() {
                 WhatsApp
               </a>
               <a
-                href="tel:+919876543210"
+                href="tel:+919750996641"
                 className="flex-1 py-3 bg-accent text-primary text-center rounded-md hover:bg-yellow-500 transition duration-300 flex items-center justify-center"
               >
                 <Phone className="mr-2 h-5 w-5" /> Call Now
