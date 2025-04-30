@@ -3,7 +3,7 @@ import { Button } from "@/components/ui/button";
 export function FloatingWhatsApp() {
   return (
     <a
-      href="https://wa.me/919876543210"
+      href="https://wa.me/919750996641"
       className="fixed bottom-6 right-6 z-50"
       target="_blank"
       rel="noopener noreferrer"
