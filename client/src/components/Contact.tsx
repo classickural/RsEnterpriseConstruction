@@ -709,7 +709,7 @@ export function Contact() {
 
         <div className="mt-12 rounded-lg overflow-hidden shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d62642.81585400778!2d79.6576522!3d11.1002579!3m2!1i1024!2i768!4f13.1!2m1!1srs%20enterprises%20mayiladuthurai!5e0!3m2!1sen!2sin!4v1746015500750!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d7830.351981750972!2d79.64812499357907!3d11.1002579!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a553324b1015951%3A0xfc71d2bd9de8a58!2sR%20S%20ENTERPRISES%20-%20AAC%20Block%20BIRLA%20NCL!5e0!3m2!1sen!2sin!4v1746015983027!5m2!1sen!2sin"
             width="100%"
             height="450"
             style={{ border: 0 }}
