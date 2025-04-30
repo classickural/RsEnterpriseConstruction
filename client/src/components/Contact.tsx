@@ -709,7 +709,7 @@ export function Contact() {
 
         <div className="mt-12 rounded-lg overflow-hidden shadow-lg">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d31252.89067723628!2d79.6390945!3d11.1041771!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3a54a2a1ce40f3eb%3A0xa01d2fd0af6a4b4a!2sMayiladuthurai%2C%20Tamil%20Nadu%20609001!5e0!3m2!1sen!2sin!4v1693557082826!5m2!1sen!2sin"
+            src="https://www.google.com/maps/embed?pb=!1m12!1m8!1m3!1d62642.81585400778!2d79.6576522!3d11.1002579!3m2!1i1024!2i768!4f13.1!2m1!1srs%20enterprises%20mayiladuthurai!5e0!3m2!1sen!2sin!4v1746015500750!5m2!1sen!2sin"
             width="100%"
             height="450"
             style={{ border: 0 }}
