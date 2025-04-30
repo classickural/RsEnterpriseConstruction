@@ -11,7 +11,7 @@ import Home from "@/pages/Home";
 function Router() {
   return (
     <Switch>
-      <Route path="/" component={Home} />
+      <Route path="/RsEnterpriseConstruction/" component={Home} />
       {/* Fallback to 404 */}
       <Route component={NotFound} />
     </Switch>
